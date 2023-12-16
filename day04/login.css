@@ -1,0 +1,924 @@
+@charset "utf-8";
+
+body.member-foot-clean {
+  margin: 0;
+  padding: 0;
+  background: #fff none;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: dotum, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.page-login2134-login .member-wrapper--flex,
+.page-login-login .member-wrapper--flex,
+.page-login-play .member-wrapper--flex,
+.page-join .member-wrapper--flex,
+.page-pincode-select .member-wrapper--flex {
+  min-width: 290px;
+  max-width: 460px;
+  padding: 0 4.35%;
+}
+
+.member-root--clean .member-wrapper {
+  width: auto;
+  margin: 0 auto;
+}
+
+.member-header {
+  position: relative;
+}
+.member-logo {
+  margin: 0 auto;
+  padding: 10.27% 0 0;
+  text-align: center;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+element.style {
+  background-image: url(https://static.coupangcdn.com/image/static/login/logo-coupang.x2.20201201.png),
+    none;
+}
+
+.member-logo__link {
+  position: relative;
+  display: block;
+  width: 43.83%;
+  max-width: 195px;
+  max-height: 46px;
+  margin: 0 auto;
+  background-position: 50% 50%;
+  padding-top: 10%;
+  background-size: cover;
+}
+.member-logo__img-fixer,
+.member-logo__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  opacity: 0;
+}
+.member-logo__img-fixer:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member-logo__img-fixer:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+a * {
+  cursor: pointer;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+a {
+  background: transparent;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.member-main {
+  position: relative;
+}
+
+div {
+  display: block;
+}
+.heads-up::after {
+  content: '';
+  visibility: hidden;
+  display: table;
+  clear: both;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+input {
+  vertical-align: middle;
+  line-height: normal;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  -webkit-rtl-ordering: logical;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+input[type='hidden' i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  display: none !important;
+  padding: initial;
+  border: initial;
+}
+.login__content:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.login__content:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__field-wrap {
+  margin: 2.9% 0 0;
+}
+.member__field-wrap:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__field-wrap:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-field {
+  position: relative;
+}
+
+.member__input-field::before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.member__input-wrap,
+.member__input-wrap-v2 {
+  display: block;
+  position: relative;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: border-color 0.25s ease;
+}
+
+.member__input-wrap:before,
+.member__input-wrap-v2:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+label {
+  cursor: pointer;
+}
+.member__input-group--icon-label {
+  position: relative;
+  float: left;
+  display: inline;
+  min-width: 44px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+.member__input-group {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+
+.member__input {
+  margin: 0;
+  height: 48px;
+  box-sizing: border-box;
+}
+.member__input {
+  width: 100%;
+  padding: 16px 0 12px;
+  border: 0 none;
+  background: none transparent;
+  font-family: dotum, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111;
+  font-weight: 700;
+  text-indent: 12px;
+}
+input {
+  vertical-align: middle;
+  font: inherit;
+}
+.member__input-field:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.member__input-wrap:after,
+.member__input-wrap-v2:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-wrap-v2.member__input-wrap--error {
+  border-color: #ccc;
+  border-bottom: 2px solid #e7223d;
+}
+.member__input-wrap--error {
+  position: relative;
+}
+
+.member__input-group--icon-label .member__sprite.member__sprite--email {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 16px;
+  padding-left: 19px;
+  background-position: -1px -1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -8px;
+}
+
+i {
+  font-style: italic;
+}
+.member__expand-field {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+.member__expand-field:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__message-area--error {
+  color: #e52528;
+}
+.member__message-area {
+  display: block;
+  margin: 9px 12px 0;
+  padding: 0;
+  font-family: dotum, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: default;
+}
+.member__expand-field:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__field-wrap:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.member__field-wrap {
+  margin: 2.9% 0 0;
+}
+.member__field-wrap:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-field--util {
+  padding-right: 46px;
+}
+.member__input-field {
+  position: relative;
+}
+.member__input-field:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-field--util .member__input-wrap,
+.member__input-field--util .member__input-wrap-v2 {
+  margin-right: -46px;
+  padding-right: 46px;
+}
+.member__input-wrap,
+.member__input-wrap-v2 {
+  display: block;
+  position: relative;
+  height: 48px;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: border-color 0.25s ease;
+}
+.member__input-wrap:before,
+.member__input-wrap-v2:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-group--icon-label {
+  position: relative;
+  float: left;
+  display: inline;
+  min-width: 44px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  background-color: #fafafa;
+}
+.member__input-group {
+  overflow: hidden;
+  margin: 0;
+}
+.member__input-group--icon-label .member__sprite.member__sprite--password {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 20px;
+  padding-left: 19px;
+  background-position: -22px -1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.member__input-group {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+.member__input {
+  margin: 0;
+  height: 48px;
+  box-sizing: border-box;
+}
+.member__input {
+  width: 100%;
+  padding: 16px 0 12px;
+  border: 0 none;
+  background: none transparent;
+  font-family: dotum, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111;
+  font-weight: 700;
+  text-indent: 12px;
+}
+.member__input-wrap:after,
+.member__input-wrap-v2:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__input-field--util .member__input-group--util {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  width: 46px;
+  height: auto;
+}
+.member__input-group--util {
+  float: right;
+}
+
+.member__input-group {
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+.member__util-trigger {
+  overflow: hidden;
+  width: 46px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  font-size: 1px;
+  color: transparent;
+}
+.member__sprite.member__sprite--show-password {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 20px;
+  padding-left: 19px;
+  background-position: -106px -1px;
+}
+.member__sprite.member__sprite--hide-password {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 20px;
+  padding-left: 19px;
+  background-position: -127px -1px;
+}
+.member__input-field:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__expand-field {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+.member__expand-field:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__message-area--error {
+  color: #e52528;
+}
+.member__message-area {
+  display: block;
+  margin: 9px 12px 0;
+  padding: 0;
+  font-family: dotum, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: default;
+}
+.member__expand-field:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__field-wrap:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__content:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__content--util {
+  margin: 12px 0 0;
+}
+.login__content:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__content--util .member__checkbox {
+  display: inline-block;
+}
+.login__util__keep-login {
+  float: left;
+}
+.member__checkbox {
+  position: relative;
+  vertical-align: middle;
+}
+.member__checkbox:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.member__checkbox input[type='checkbox'].member__checkbox__input {
+  float: left;
+  display: inline;
+  margin-right: 6px;
+}
+input[type='checkbox'].member__checkbox__input {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 1px;
+  vertical-align: middle;
+  appearance: none;
+}
+.member__sprite-after.member__sprite-after--checkbox {
+  overflow: hidden;
+}
+input[type='checkbox'] {
+  box-sizing: border-box;
+}
+input[type='checkbox'].member__checkbox__input:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #fff;
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.05);
+}
+.member__sprite-after.member__sprite-after--checkbox:after {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 12px;
+  padding-left: 15px;
+  background-position: -85px -22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: 6px;
+  transition: opacity 0.25s ease, margin 0.25s ease;
+  opacity: 0;
+}
+.member__checkbox .member__checkbox__label {
+  float: left;
+  display: inline;
+}
+.member__checkbox__label {
+  user-select: none;
+  vertical-align: middle;
+  color: #555;
+  font-size: 14px;
+  line-height: 24px;
+}
+.member__checkbox:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__link--find-id-password {
+  float: right;
+  position: relative;
+  padding-right: 12px;
+}
+.login__link {
+  text-decoration: none;
+  color: #0073e9;
+  font-size: 14px;
+  line-height: 24px;
+}
+a {
+  background: transparent;
+}
+.login__link--find-id-password .member__sprite--right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: url(https://static.coupangcdn.com/image/coupang/icon/xhdpi/arrow-right-blue.png)
+    center no-repeat;
+  background-size: cover;
+  margin-top: -6px;
+  height: 12px;
+}
+.member__sprite.member__sprite--right-arrow {
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  padding-left: 7px;
+}
+.login__link--find-id-password {
+  float: right;
+  position: relative;
+  padding-right: 12px;
+}
+.login__link {
+  text-decoration: none;
+  color: #0073e9;
+  font-size: 14px;
+  line-height: 24px;
+}
+.login__keep-message {
+  position: relative;
+  float: left;
+  clear: both;
+  white-space: nowrap;
+  margin: 8px 0 0;
+  padding: 6px;
+  font-size: 12px;
+  font-family: dotum, sans-serif;
+  letter-spacing: -1px;
+  border: 0 none;
+  color: #555;
+  background-color: #f4f4f4;
+}
+.member__sprite.member__sprite--triangle {
+  background-image: url(https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg),
+    none;
+  background-size: 148px 148px;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-indent: 1px;
+  height: 8px;
+  padding-left: 10px;
+  background-position: -111px -22px;
+  position: absolute;
+  bottom: 100%;
+  left: 4px;
+  margin: 0;
+}
+.login__content:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  _display: block;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__content--trigger {
+  margin: 14px 0 0;
+}
+.login__content:before {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.login__button.login__button--submit {
+  background-color: #0074e9;
+  color: #fff;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.38);
+  padding: 16px 17px;
+  font-family: apple sd gothic neo, malgun gothic, nanumbarungothic, nanumgothic, dotum, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.login__button {
+  overflow: hidden;
+  border: 0;
+  border-radius: 2px;
+  background-clip: padding-box;
+  text-align: center;
+  transition: background-color 0.75s ease;
+  font-weight: 700;
+  text-decoration: none;
+}
+.login__separator {
+  display: block;
+  width: 100%;
+  height: 0;
+  margin: 18px 0 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+hr {
+  box-sizing: content-box;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+}
+.login__button.login__button--join {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #0073e9;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  padding: 16px 17px;
+  font-family: apple sd gothic neo, malgun gothic, nanumbarungothic, nanumgothic, dotum, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 18px 0 0;
+}
+.login__button {
+  overflow: hidden;
+  border-radius: 2px;
+  background-clip: padding-box;
+  text-align: center;
+  transition: background-color 0.75s ease;
+  font-weight: 700;
+  text-decoration: none;
+}
+.login__content:after {
+  overflow: hidden;
+  content: '';
+  display: table;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+.member-footer {
+  padding: 20px 0 40px;
+  text-align: center;
+  font-family: dotum, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+footer {
+  display: block;
+}
